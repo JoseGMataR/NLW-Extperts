@@ -14,13 +14,21 @@
 }
 
 body {
-  background-color: #0f172a;
+  background-image: url(https://letras.biblioteca.ufrj.br/wp-content/uploads/2021/08/Resenha-1-Harry-Potter-e-a-Pedra-Filosofal_Naiara-Mello_imagem-820x1160.jpeg);
+  background-repeat: repeat-y;
+  
 }
+
+#logo {
+  height: 100px;
+}
+
 
 main {
   margin: 0 auto 64px;
   padding: 20px;
   max-width: 640px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 header {
@@ -31,7 +39,7 @@ header {
 
 header h1 {
   font-size: 30px;
-  color: #f1f5f9;
+  color: #FFD800;
   margin-top: 24px;
 }
 
@@ -41,25 +49,25 @@ header h1 {
 
 .quiz-item {
   margin-top: 24px;
-  border: 1px solid #475569;
+  border: 1px solid #ffdb00;
   border-radius: 6px;
   overflow: hidden;
 }
 
 .quiz-item h3 {
   padding:  16px 20px;
-  color: #e2e8f0;
+  color: #d3a625;
   display: flex;
   align-items: center;
   gap: 12px;
 
-  background-color: #1e293b;
+  background-color: #740001;
 }
 
 .quiz-item h3:before{
   counter-increment: quiz-item;
   content: counter(quiz-item);
-  background-color: #475569;
+  background-color: #d3a625, ;
 
   width: 28px;
   height: 28px;
@@ -77,6 +85,7 @@ header h1 {
   padding: 20px 24px;
   display: grid;
   gap: 8px;
+  background-color: rgba(10, 10, 10, 0.5) ;
 }
 
 .quiz-item dl dt {
@@ -88,12 +97,12 @@ header h1 {
   align-items: center;
   gap: 8px;
 
-  color: #e2e8f0;
+  color: #dfe9f0;
 }
 
 input {
   all: unset;
-  border: 1px solid #94a3b8;
+  border: 1px solid #e89d41;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -105,20 +114,21 @@ input {
 
 /* pseudo-selector */
 input:checked {
-  border: 2px solid #A3E635;
+  border: 2px solid #ffdb00;
 }
 
 input:checked:before {
   content: '';
   width: 10px;
   height: 10px;
-  background-color: #A3E635;
+  background-color: #000000;
   border-radius: 50%;
 }
 
 #acertos {
   text-align: center;
-  background-color: #A3E635;
+  background-color: #1a472a;
+  color: #aaaaaa;
   position: fixed;
   bottom: 0;
   left: 0;
