@@ -22,20 +22,8 @@ body {
   background-size: contain;
 }
 
-#header {
-  width: 100%;
-  padding: 10px;
-  background-color: #000000;
-  position: fixed;
-  left: auto;
-}
-
-  #logo-nlw{
-    height: 20px;
-  }
-
-#logo-hogwarts {
-  height: 50px;
+#logo {
+  height: 100px;
 }
 
 #contenedor{
@@ -50,11 +38,14 @@ main {
 
 header {
   margin-top: 15px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #334155;
 }
 
 header h1 {
   font-size: 60px;
   color: #FFD800;
+  margin-top: 24px;
 }
 
 #quiz {
@@ -62,7 +53,7 @@ header h1 {
 }
 
 .quiz-item {
-  margin-top: 20px;
+  margin-top: 0;
   border: 1px solid #ffdb00;
   border-radius: 6px;
   overflow: hidden;
@@ -94,7 +85,6 @@ header h1 {
   justify-content: center;
   flex-shrink: 0;
 }
-
 
 .quiz-item dl {
   padding: 20px 24px;
