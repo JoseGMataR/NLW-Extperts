@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
 
 *, :root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Bigelow Rules', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,29 +18,32 @@
 body {
   background-image: url(https://letras.biblioteca.ufrj.br/wp-content/uploads/2021/08/Resenha-1-Harry-Potter-e-a-Pedra-Filosofal_Naiara-Mello_imagem-820x1160.jpeg);
   background-repeat: repeat-y;
-  
+  background-position: center;
+  background-size: contain;
 }
 
 #logo {
   height: 100px;
 }
 
+#contenedor{
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 main {
   margin: 0 auto 64px;
   padding: 20px;
   max-width: 640px;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 header {
-  margin-top: 64px;
+  margin-top: 15px;
   padding-bottom: 24px;
   border-bottom: 1px solid #334155;
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 60px;
   color: #FFD800;
   margin-top: 24px;
 }
@@ -48,7 +53,7 @@ header h1 {
 }
 
 .quiz-item {
-  margin-top: 24px;
+  margin-top: 0;
   border: 1px solid #ffdb00;
   border-radius: 6px;
   overflow: hidden;
@@ -60,6 +65,7 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 12px;
+  font-size: 30px;
 
   background-color: #740001;
 }
@@ -71,7 +77,7 @@ header h1 {
 
   width: 28px;
   height: 28px;
-  font-size: 12px;
+  font-size: 20px;
   border-radius: 50%;
 
   display: flex;
@@ -85,11 +91,11 @@ header h1 {
   padding: 20px 24px;
   display: grid;
   gap: 8px;
-  background-color: rgba(10, 10, 10, 0.5) ;
+  background-color: rgba(10, 10, 10, 0.6);
 }
 
 .quiz-item dl dt {
-  font-size: 14px;
+  font-size: 25px;
   line-height: 24px;
   letter-spacing: 0;
 
@@ -121,7 +127,7 @@ input:checked:before {
   content: '';
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #740001;
   border-radius: 50%;
 }
 
@@ -134,4 +140,5 @@ input:checked:before {
   left: 0;
   width: 100%;
   padding: 12px;
+  font-size: 25px;
 }
