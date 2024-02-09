@@ -28,9 +28,11 @@ body {
   background-color: #000000;
   position: fixed;
   left: auto;
+}
 
   #logo-nlw{
     height: 20px;
+  }
 
 #logo-hogwarts {
   height: 50px;
