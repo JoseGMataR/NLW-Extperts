@@ -83,9 +83,9 @@ const perguntas = [
     {
       pergunta: "Qual é o nome do professor de Poções em Hogwarts?",
       respostas: [
-        "Severo Snape",
         "Remo Lupin",
         "Horácio Slughorn",
+        "Severo Snape",
       ],
       correta: 2
     },
